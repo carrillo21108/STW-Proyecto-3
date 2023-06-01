@@ -1,0 +1,108 @@
+.seccion1-container{
+    height: auto;
+    padding-top: 115px;
+    padding-bottom: 85px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.seccion1-titulo{
+    display: flex;
+    margin-bottom: 2.5rem;
+    justify-content: space-between;
+
+    h2{
+        font-family: 'Playfair Display';
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: inherit;
+        display: flex;
+        justify-content: left;
+        margin-bottom: 2.5rem;
+        margin-block-start: 0;
+        letter-spacing: .07em;
+        text-align: left;
+        color:#1f1f1f;
+    }
+
+    a{
+        font-family: 'Playfair Display';
+        font-weight: 800;
+        line-height: 1;
+        letter-spacing: .05em;
+        font-size: .813rem;
+        border-radius: 6.5px;
+        padding: 0.5rem 0.75rem;
+        min-width: auto;
+        line-height: 1;
+        background-color: #26282D;
+        color: #f9f9f9;
+        border: 0;
+        vertical-align: middle;
+        cursor: pointer;
+        overflow: visible;
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+
+        height: 15px;
+        text-align: right;
+    }
+
+    a:hover{
+        background-color: rgba(19, 19, 19, 0.2);
+    }
+}
+
+.seccion1-contenido{
+    display: flex;
+    .main-target{
+        position: relative;
+        width: 60%;
+        margin-right: 2%;
+        background-image: url('https://www.thoughtco.com/thmb/mP0ZEXwWlvCJVJNDvHNxmnEEdQA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/css-code-in-text-editor--web-page-internet-technology-862672426-5c8455ddc9e77c0001a67650.jpg');
+        height: 350px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 2px;
+        border: 2.5px solid #E7E9DE;
+        transition: border-color 0.3s ease;
+
+        h1{
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-family: 'Playfair Display';
+            font-weight: 700;
+            font-size: 1.9rem;
+            line-height: inherit;
+            display: flex;
+            justify-content: left;
+            margin-bottom: 2.5rem;
+            margin-block-start: 0;
+            letter-spacing: .07em;
+            text-align: left;
+            color: #f9f9f9;
+            margin-left: 5%;
+            margin-top: 270px;
+        }
+
+        a{ 
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .main-target:hover{
+        border-color: #9E9C99;
+    }
+
+    .second-target{
+        width: 38%;
+    }
+}

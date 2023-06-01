@@ -9,8 +9,8 @@ function Tecnologias(){
         <div>
             <div className='tecnologias-container'>
                 <div className='tecnologias-titulo'>
-                    <h2>Habilidades</h2>
-                    <p>Mi destreza y conocimiento en los siguientes lenguajes y tecnologías</p>
+                    <h2 className='animate__animated'>Habilidades</h2>
+                    <p className='animate__animated'>Mi destreza y conocimiento en los siguientes lenguajes y tecnologías</p>
                 </div>
 
                 <div className='tecnologias-contenido'>

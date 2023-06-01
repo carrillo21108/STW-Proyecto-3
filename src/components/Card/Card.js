@@ -50,16 +50,36 @@ function Card(props){
         marginLeft: '26%'  
     }
 
+    const style_h1 = {
+        position: 'absolute',
+        top: '0',
+        left: '0',
+        fontFamily: 'Playfair Display',
+        fontWeight: '700',
+        fontSize: '1.4rem',
+        lineHeight: 'inherit',
+        display: 'flex',
+        justifyContent: 'left',
+        marginBottom: '2.5rem',
+        marginBlockStart: '0',
+        letterSpacing: '.07em',
+        textAlign: 'left',
+        color: '#f9f9f9',
+        marginLeft: '5%',
+        marginTop: '200px'
+    }
+
     return(
         <div style={style}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}>
             <img src={props.src} style={style_img}/>
+            <h1 style={style_h1} className='animate__animated'>{props.title}</h1>
             <a style={style_a}
             href={props.url}
             target='_blank'> 
             </a>
-            <p>{props.name}</p>
+            <p className='animate__animated'>{props.name}</p>
         </div>
     );
 }
