@@ -1,0 +1,114 @@
+.intro-container{
+    width: 50%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.intro-content{
+    width: 80%;
+    height: auto;
+    margin: auto 20px;
+
+    h1{
+        font-family: 'Playfair Display';
+        font-weight: 700;
+        font-size: 1.9rem;
+        color: #1E2025;
+        line-height: 1;
+        letter-spacing: .01em;
+    }
+    
+    .intro-parrafo1{
+        font-family: 'Playfair Display';
+        font-weight: 400;
+        font-size: 1.25rem;
+        color: #1E2025;
+        margin-bottom: 3.125rem;
+        line-height: 1.5rem;
+        letter-spacing: .01em;
+    }
+
+    .intro-parrafo2{
+        font-family: 'Playfair Display';
+        font-weight: 400;
+        font-size: 0.8rem;
+        color: #1E2025;
+        margin-bottom: 3.125rem;
+        line-height: 1.5rem;
+        letter-spacing: .01em;
+    }
+    
+    img{
+        width: 150px;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    a{
+        background: #1E2025;
+        position: relative;
+        display: inline-block;
+        border: 0;
+        vertical-align: middle;
+        cursor: pointer;
+        overflow: visible;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 18px;
+        line-height: 1;
+        min-width: 70px;
+        padding: 2px 6px;
+
+        span{
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            border: 0;
+            align-items: center;
+            overflow: visible;
+            text-align: center;
+            border-radius: 18px;
+            line-height: 1;
+            min-width: 70px;
+            padding: 9px;
+            padding-right: 5px;
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: .07em;
+            transition: all .2s ease-out;
+            color: #f9f9f9;
+            font-family: 'Playfair Display';
+        }
+    }
+
+    a:hover{
+        background: #000;
+    }
+}
+
+.background-video{
+    position: relative;
+    width: 50%;
+    margin-left: 50%;
+    height: 700px;
+
+    video{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

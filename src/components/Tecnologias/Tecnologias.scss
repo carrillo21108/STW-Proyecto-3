@@ -1,0 +1,44 @@
+.tecnologias-container{
+    background-color: #26282D;
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.tecnologias-titulo{
+    margin-bottom: 2.5rem;
+
+    h2{
+        font-family: 'Playfair Display';
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: inherit;
+        display: flex;
+        justify-content: left;
+        margin-bottom: 2.5rem;
+        margin-block-start: 0;
+        letter-spacing: .07em;
+        text-align: left;
+        color: #DBC8BE;
+        margin-left: 40%;
+    }
+
+    p{
+        font-family: 'Playfair Display';
+        font-weight: 400;
+        font-size: 1.25rem;
+        color: white;
+        margin-bottom: 3.125rem;
+        line-height: 1.5rem;
+        letter-spacing: .01em;
+    }
+}
+
+.tecnologias-contenido{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+}
