@@ -14,7 +14,7 @@ Al momento de desarrollar, generar un servidor de desarrollo en el entorno webpa
 ```sh
 npm run start
 ```
-Generar la carpeta dist_react
+Generar la carpeta dist_react publicada en el siguiente [enlace](https://stw-proyecto3.web.app)
 ```sh
 npm run start-webpack
 ```
