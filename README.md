@@ -1,4 +1,7 @@
 # STW-Proyecto-3
+💻 Portafolio Web
+## Curso
+Sistemas y Tecnologías Web
 ## Tecnologías utilizadas
 - Webpack: herramienta de construcción de módulos en JavaScript que se utiliza para empacar y transformar los assets de un proyecto.
 - React: biblioteca de JavaScript utilizada para construir interfaces de usuario interactivas y reutilizables.
